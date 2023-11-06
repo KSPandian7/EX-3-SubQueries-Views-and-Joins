@@ -1,5 +1,11 @@
 # EX 3 SubQueries, Views and Joins 
 
+## DATE: 17/08/2023
+
+## AIM:
+To view implement Subqueries , views and joins.
+
+
 
 ## Create employee Table
 ```sql
@@ -69,46 +75,46 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 
 ### QUERY:
-
+![Alt text](270762717-1848b392-372d-4111-af2d-25daf5458864.png)
 
 ### OUTPUT:
-
+![Alt text](270762784-ee7dd795-bf87-4dff-aca9-b80307477ddd.png)
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
 ### QUERY:
-
+![Alt text](270763155-2c78d720-f077-4843-bbbd-cefb0e36afcf.png)
 
 ### OUTPUT:
-
+![Alt text](270763212-0ca9e7dc-c9b6-45c6-b7a0-bf123d815295.png)
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
 ### QUERY:
-
+![Alt text](270764132-ea1201a0-53bc-436b-b815-3889759afcff.png)
 
 ### OUTPUT:
-
+![Alt text](270764187-7376ae95-bab6-4739-abd7-bdc5e8a727dd.png)
 
 ### Q4) Create a view empv5 (for the table emp) that contains empno, ename, job of the employees who work in dept 10.
 
 ### QUERY:
-
+![Alt text](270764614-4c3e781f-8787-461d-b2ee-162f5222abd9.png)
 
 ### OUTPUT:
-
+![Alt text](270764656-753d1db9-8955-4b97-b850-43622886968b.png)
 ### Q5) Create a view with column aliases empv30 that contains empno, ename, sal of the employees who work in dept 30. Also display the contents of the view.
 
 ### QUERY:
-
+![Alt text](270765070-3551ed65-3cb5-4846-b817-48436b507530.png)
 
 ### OUTPUT:
-
+![Alt text](270765159-026712b5-02b2-40d6-a757-cec5bc08890d.png)
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 
 ### QUERY:
-
+![Alt text](270767939-d83bbdcd-83a3-427e-bd2b-e799958b055d.png)
 
 ### OUTPUT:
-
+![Alt text](270767871-6941b531-33ed-41dc-b6f4-9e8bcc0dd113.png)
 ## Create a Customer1 Table
 ```sql
 CREATE TABLE Customer1 (customer_id INT,cust_name VARCHAR(20),city VARCHAR(20),grade INT,salesman_id INT);
@@ -140,28 +146,49 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 ### Q7) Write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
 
 ### QUERY:
-
+![Alt text](270771248-20c63405-1555-444c-8d92-daee8ad9f52d.png)
 
 ### OUTPUT:
-
+![Alt text](270771306-4bf9b80e-b31d-486e-87b5-5462e60e6e2f.png)
 ### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
 
 ### QUERY:
-
+![Alt text](270772008-6b4b7f1a-e1fa-41eb-abfc-d544b005a00e.png)
 
 ### OUTPUT:
+![Alt text](270772054-031553d8-640c-4306-9f12-cd4a6c6a68ed.png)
 
 ### Q9) Perform Natural join on both tables
 
 ### QUERY:
-
+![Alt text](270772360-a9609769-7404-4c74-909b-53d5610ea79a.png)
 
 ### OUTPUT:
-
+![Alt text](270772421-1026e100-8a70-45e8-bdcb-3d51efdfa1fc.png)
 ### Q10) Perform Left and right join on both tables
 
 ### QUERY:
+#### LEFT JOIN:
+![Alt text](270849330-7915ee92-d1e0-4528-be68-4bbe6fd7a11c.png)
+
+#### RIGHT JOIN:
+![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/8be146f2-c02a-4c31-8dd7-a759a92e69c3)
 
 
 ### OUTPUT:
+
+#### LEFT JOIN:
+![Alt text](270773161-f7e2b17f-33d1-404c-8a43-83636dc8c552.png)
+
+#### RIGHT JOIN:
+
+![Alt text](270773439-43cc7093-35af-4c4b-8854-068a0f0b34d1.png)
+
+
+
+## RESULT:
+A database is created and views , subqueries and joins are executed successfully .
+
+
+
